@@ -8,6 +8,7 @@ const profile = {
         this.playTime = 320;
     },
     getInfo() {
+        return ` ${this.username} has ${this.playTime} active hours!`
 
     },
 };
